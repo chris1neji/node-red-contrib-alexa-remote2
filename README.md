@@ -25,13 +25,14 @@ The goal is to expose all of [alexa-remote2](https://www.npmjs.com/package/alexa
    | GER | layla.amazon.de     | amazon.de    | de-DE    |
    
 4. Set **This IP** to the ip of your Node-RED server
-5. Enter a **File Path** to save the authentication result so following authentications will be 
+5. Set **Port** to a random port not in used. Do not use Node-Red port or home assistant port. Use one that is not in use.
+6. Enter a **File Path** to save the authentication result so following authentications will be 
 automatic. 
-6. *Add* the new Account.
-7. Deploy
-8. Follow the url you see in the node status
-9. Log in, wait until you see the node status **ready**
-10. Write "Hello World!" in the *Alexa Routine* node text field.
-11. Select a device in the *Alexa Routine* node devices field.
+7. *Add* the new Account.
+8. Deploy
+9. Follow the url you see in the node status
+10. Log in, wait until you see the node status **ready**
+11. Write "Hello World!" in the *Alexa Routine* node text field.
+12. Select a device in the *Alexa Routine* node devices field.
 
 Now trigger the *Alexa Routine* Node with any message and your Alexa will say "Hello World!". (Hopefully!)
